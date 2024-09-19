@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">SE1731_demo1</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+
+    <string-array name="campus">
+        <item>Ha Noi</item>
+        <item>Ho Chi Minh</item>
+        <item>Can Tho</item>
+    </string-array>
+</resources>

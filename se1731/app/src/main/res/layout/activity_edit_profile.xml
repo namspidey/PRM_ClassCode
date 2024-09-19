@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/edit_profile"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EditProfileActivity">
+
+    <ImageView
+        android:id="@+id/img_edit_avatar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="12dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <TextView
+        android:id="@+id/tv_first_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/first_name"
+        android:layout_toRightOf="@id/img_edit_avatar"
+        android:layout_alignParentTop="true"
+        android:paddingLeft="8dp"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter first name here"
+        android:text="Nam"
+        android:id="@+id/tv_edit_first_name"
+        android:layout_below="@id/tv_first_name"
+        android:layout_toRightOf="@id/img_edit_avatar"
+        android:paddingLeft="8dp"
+        />
+
+    <Button
+        android:id="@+id/bt_save_profile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:text="Save"
+        />
+</RelativeLayout>
